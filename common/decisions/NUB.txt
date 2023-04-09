@@ -1,0 +1,338 @@
+liebensraum_category = {
+	
+	amur_decision = {
+	
+		icon = category_generic_fascism
+		
+		ai_will_do = {
+			factor = 4000
+		}
+
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 561
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 561
+			
+			
+			
+			hidden_effect = {
+				561 = { add_core_of = ROOT }
+				
+				
+			}
+		}
+	}
+	
+	chita_decision = {
+	
+		icon = category_generic_fascism
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 563
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		remove_effect = {
+			
+			
+			transfer_state = 563
+			
+			
+			hidden_effect = {
+				
+				563 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	bodaibo_decision = {
+	
+		icon = category_generic_fascism
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 565
+				
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		remove_effect = {
+			
+			
+			transfer_state = 575
+			transfer_state = 565
+			
+			
+			hidden_effect = {
+				
+				565 = { add_core_of = ROOT }
+				575 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	udachnii_decision = {
+	
+		icon = category_generic_fascism
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 877
+				
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		remove_effect = {
+			
+			
+			transfer_state = 876
+			transfer_state = 877
+			
+			
+			hidden_effect = {
+				
+				876 = { add_core_of = ROOT }
+				877 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	ohotsk_decision = {
+	
+		icon = category_generic_fascism
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 562
+				
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		remove_effect = {
+			
+			
+			transfer_state = 562
+			
+			
+			
+			hidden_effect = {
+				
+				562 = { add_core_of = ROOT }
+				
+				
+			}
+		}
+	}
+	
+	baikal_control_decision = {
+	
+		icon = category_eng_move_to_secure_the_dominions
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 40
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 564
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		visible = {
+			controls_state = 563
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 567
+			transfer_state = 566
+			transfer_state = 564
+			
+			hidden_effect = {
+				564 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	primorie_control_decision = {
+	
+		icon = category_eng_move_to_secure_the_dominions
+		
+		cost = 45
+		
+		fire_only_once = yes
+		
+		days_remove = 25
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 657
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		visible = {
+			controls_state = 561
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 657
+			transfer_state = 560
+			transfer_state = 409
+			transfer_state = 408
+			
+			hidden_effect = {
+				657 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				JAP = { transfer_state = 655 }
+				655 = { set_compliance = 50 }
+				
+			}
+		}
+	}
+	
+	magadan_control_decision = {
+	
+		icon = category_eng_move_to_secure_the_dominions
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 20
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 644
+			}
+		}
+		
+		allowed = {
+			tag = NUB
+		}
+		
+		visible = {
+			controls_state = 877
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 644
+			transfer_state = 874
+			transfer_state = 822
+			transfer_state = 637
+			
+			hidden_effect = {
+				644 = { add_core_of = ROOT }
+				874 = { add_core_of = ROOT }
+				822 = { add_core_of = ROOT }
+				637 = { add_core_of = ROOT }
+				USA = { transfer_state = 875 }
+				875 = { set_compliance = 50 }
+				
+			}
+		}
+	}
+}

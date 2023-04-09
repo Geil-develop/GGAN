@@ -1,0 +1,43 @@
+bookmarks = {
+	bookmark = {
+		name = "SOVIET_STORM_NAME"
+		desc = "SOVIET_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GEL"
+		default = yes
+		
+		
+		"GEL"={
+			history = "GEL_GATHERING_STORM_DESC"
+			ideology = communism
+		
+		}
+		
+		"ART"={
+			history = "ART_GATHERING_STORM_DESC"
+			ideology = neutrality
+		
+		}
+		
+		"NUB"={
+			history = "NUB_GATHERING_STORM_DESC"
+			ideology = fascism
+		
+		}
+		
+		"GMC"={
+			history = "GMC_GATHERING_STORM_DESC"
+			ideology = democratic
+		
+		}
+		
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+	}	
+}

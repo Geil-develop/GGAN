@@ -1,0 +1,335 @@
+expand_category = {
+	
+	moscow_decision = {
+	
+		icon = infiltrate_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 219
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 219
+			
+			hidden_effect = {
+				219 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	yaroslavl_decision = {
+	
+		icon = infiltrate_state
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 253
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 253
+			transfer_state = 248
+			
+			hidden_effect = {
+				253 = { add_core_of = ROOT }
+				248 = { add_core_of = ROOT }
+			}
+		}
+	}
+	penza_decision = {
+	
+		icon = infiltrate_state
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 255
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 255
+			transfer_state = 252
+			
+			hidden_effect = {
+				255 = { add_core_of = ROOT }
+				252 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	tambov_decision = {
+	
+		icon = infiltrate_state
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 257
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 257
+			transfer_state = 258
+			
+			hidden_effect = {
+				257 = { add_core_of = ROOT }
+				258 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	tula_decision = {
+	
+		icon = infiltrate_state
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 223
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 223
+			transfer_state = 205
+			transfer_state = 222
+			
+			hidden_effect = {
+				223 = { add_core_of = ROOT }
+				222 = { add_core_of = ROOT }
+				205 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	rzhev_control_decision = {
+	
+		icon = category_eng_move_to_secure_the_dominions
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		days_remove = 20
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 246
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		visible = {
+			controls_state = 219
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 242
+			transfer_state = 243
+			transfer_state = 246
+			transfer_state = 247
+			transfer_state = 263
+			transfer_state = 208
+			transfer_state = 244
+			
+			hidden_effect = {
+				242 = { add_core_of = ROOT }
+				243 = { add_core_of = ROOT }
+				246 = { add_core_of = ROOT }
+				247 = { add_core_of = ROOT }
+				263 = { add_core_of = ROOT }
+				208 = { add_core_of = ROOT }
+				244 = { add_core_of = ROOT }
+				FIN = { transfer_state = 195 }
+				195 = { set_compliance = 50 }
+			}
+		}
+	}
+	
+	south_control_decision = {
+	
+		icon = category_eng_move_to_secure_the_dominions
+		
+		cost = 45
+		
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		days_remove = 25
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 260
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		visible = {
+			controls_state = 257
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 260
+			transfer_state = 220
+			transfer_state = 240
+			transfer_state = 224
+			transfer_state = 265
+			transfer_state = 239
+			transfer_state = 829
+			
+			hidden_effect = {
+				260 = { add_core_of = ROOT }
+				220 = { add_core_of = ROOT }
+				240 = { add_core_of = ROOT }
+				224 = { add_core_of = ROOT }
+				265 = { add_core_of = ROOT }
+				239 = { add_core_of = ROOT }
+				829 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	vologda_control_decision = {
+	
+		icon = category_eng_move_to_secure_the_dominions
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 40
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 351
+			}
+		}
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		visible = {
+			controls_state = 248
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 351
+			transfer_state = 264
+			transfer_state = 879
+			transfer_state = 214
+			transfer_state = 880
+			
+			hidden_effect = {
+				351 = { add_core_of = ROOT }
+				264 = { add_core_of = ROOT }
+				879 = { add_core_of = ROOT }
+				214 = { add_core_of = ROOT }
+				880 = { add_core_of = ROOT }
+				FIN = { transfer_state = 215 }
+				FIN = { transfer_state = 213 }
+				FIN = { transfer_state = 216 }
+				215 = { set_compliance = 50 }
+				213 = { set_compliance = 50 }
+				216 = { set_compliance = 50 }
+			}
+		}
+	}
+}

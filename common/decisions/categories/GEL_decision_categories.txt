@@ -1,0 +1,10 @@
+expand_GEL_category = {
+
+	icon = sov_great_patriotic_war
+	priority = 90
+	
+	
+	allowed = {
+		original_tag = GEL
+	}
+}

@@ -1,0 +1,322 @@
+expand_GEL_category = {
+	
+	magnitogorsk_decision = {
+	
+		icon = infiltrate_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 582
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 582
+			
+			
+			hidden_effect = {
+				582 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	orenburg_decision = {
+	
+		icon = infiltrate_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 652
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 652
+			transfer_state = 251
+			
+			
+			hidden_effect = {
+				652 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	kazan_decision = {
+	
+		icon = infiltrate_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 249
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 249
+			transfer_state = 399
+			
+			
+			hidden_effect = {
+				249 = { add_core_of = ROOT }
+				399 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	zlatoust_decision = {
+	
+		icon = infiltrate_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 573
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 573
+			
+			
+			
+			hidden_effect = {
+				573 = { add_core_of = ROOT }
+				
+				
+			}
+		}
+	}
+	
+	perm_decision = {
+	
+		icon = infiltrate_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 398
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 398
+			
+			
+			
+			hidden_effect = {
+				398 = { add_core_of = ROOT }
+				
+				
+			}
+		}
+	}
+	
+	ulyanovsk_control_decision = {
+	
+		icon = category_generic_foreign_policy
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 20
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 250
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		visible = {
+			controls_state = 251
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 250
+			transfer_state = 401
+			transfer_state = 256
+			
+			
+			hidden_effect = {
+				250 = { add_core_of = ROOT }
+				401 = { add_core_of = ROOT }
+				256 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	kirov_control_decision = {
+	
+		icon = category_generic_foreign_policy
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 45
+		
+		fire_only_once = yes
+		
+		days_remove = 25
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 400
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		visible = {
+			controls_state = 399
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 400
+			transfer_state = 833
+			transfer_state = 397
+			
+			
+			hidden_effect = {
+				400 = { add_core_of = ROOT }
+				833 = { add_core_of = ROOT }
+				397 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	pechora_control_decision = {
+	
+		icon = category_generic_foreign_policy
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 40
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 262
+			}
+		}
+		
+		allowed = {
+			tag = GEL
+		}
+		
+		visible = {
+			controls_state = 398
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 581
+			transfer_state = 262
+			transfer_state = 825
+			
+			
+			hidden_effect = {
+				400 = { add_core_of = ROOT }
+				833 = { add_core_of = ROOT }
+				397 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+}

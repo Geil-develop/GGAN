@@ -1,0 +1,329 @@
+poslednii_prikaz_stalina = {
+	
+	chelyabinsk_decision = {
+	
+		icon = ART_claim_soviet_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 572
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 572
+			transfer_state = 583
+			
+			
+			hidden_effect = {
+				572 = { add_core_of = ROOT }
+				583 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	tumen_decision = {
+	
+		icon = ART_claim_soviet_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 403
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 403
+			transfer_state = 590
+			
+			
+			hidden_effect = {
+				403 = { add_core_of = ROOT }
+				590 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	tobolsk_decision = {
+	
+		icon = ART_claim_soviet_state
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 580
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 580
+			transfer_state = 579
+			
+			
+			hidden_effect = {
+				580 = { add_core_of = ROOT }
+				579 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	omsk_raid_decision = {
+	
+		icon = category_gre_faction_management
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 571
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 571
+			transfer_state = 882
+			
+			
+			hidden_effect = {
+				571 = { add_core_of = ROOT }
+				
+				882 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	yamal_raid_decision = {
+	
+		icon = category_gre_faction_management
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 10
+		
+		fire_only_once = yes
+		
+		days_remove = 10
+		
+		highlight_states = {
+			highlight_state_targets = {
+				
+				state = 824
+				
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 824
+			transfer_state = 577
+			
+			
+			hidden_effect = {
+				824 = { add_core_of = ROOT }
+				
+				577 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	altay_control_decision = {
+	
+		icon = oppression
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 20
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 40
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		visible = {
+			controls_state = 882
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 40
+			transfer_state = 569
+			transfer_state = 570
+			
+			
+			hidden_effect = {
+				40 = { add_core_of = ROOT }
+				569 = { add_core_of = ROOT }
+				570 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+	
+	tomsk_control_decision = {
+	
+		icon = oppression
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 45
+		
+		fire_only_once = yes
+		
+		days_remove = 25
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 578
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		visible = {
+			controls_state = 882
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 578
+			transfer_state = 568
+			
+			
+			
+			hidden_effect = {
+				578 = { add_core_of = ROOT }
+				568 = { add_core_of = ROOT }
+				
+				
+			}
+		}
+	}
+	
+	eniseisk_control_decision = {
+	
+		icon = oppression
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 30
+		
+		fire_only_once = yes
+		
+		days_remove = 40
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 576
+			}
+		}
+		
+		allowed = {
+			tag = ART
+		}
+		
+		visible = {
+			controls_state = 577
+		}
+		
+		remove_effect = {
+			
+			transfer_state = 576
+			transfer_state = 516
+			transfer_state = 878
+			
+			
+			
+			hidden_effect = {
+				576 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				878 = { add_core_of = ROOT }
+				
+			}
+		}
+	}
+}

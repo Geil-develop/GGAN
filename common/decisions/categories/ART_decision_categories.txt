@@ -1,0 +1,11 @@
+poslednii_prikaz_stalina = {
+
+	icon = generic_crisis
+	
+	priority = 90
+	
+	
+	allowed = {
+		original_tag = ART
+	}
+}

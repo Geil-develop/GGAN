@@ -1,0 +1,11 @@
+expand_category = {
+
+	icon = SOV_civil_war
+	
+	priority = 90
+	
+	
+	allowed = {
+		original_tag = GMC
+	}
+}
