@@ -1,0 +1,23 @@
+﻿l_russian:
+
+#GMC_UNF - региональное обьединение
+
+GMC_UNF:0 "Рязань"
+GMC_UNF_fascism:0 "Легион «Свобода России»"
+GMC_UNF_fascism_DEF:0 "Легион «Свобода России»"
+GMC_UNF_democratic:0 "Рязанское Правительство России"
+GMC_UNF_democratic_DEF:0 "Рязанское Правительство России"
+GMC_UNF_communism:0 "Западнороссийская Демократическая Республика"
+GMC_UNF_communism_DEF:0 "Западнороссийская Демократическая Республика"
+GMC_UNF_neutrality:0 "Рязанское Временное Правительство"
+GMC_UNF_neutrality_DEF:0 "Рязанское Временное Правительство"
+GMC_UNF_subject:1 "Западнороссийская Автономия"
+GMC_UNF_subject_DEF:1 "Западнороссийская Автономия"
+GMC_UNF_autonomy_supervised_state:0 "$OVERLORDADJ$ Совет Интеграции Рязани"
+GMC_UNF_autonomy_supervised_state_DEF:0 "$OVERLORDADJ$ Совет Интеграции Рязани"
+GMC_UNF_fascism_ADJ:0 "Острейхск."
+GMC_UNF_democratic_ADJ:0 "Рязанск."
+GMC_UNF_communism_ADJ:0 "Рязанск."
+GMC_UNF_neutrality_ADJ:0 "Рязанск."
+GMC_UNF_subject_ADJ:0 "Рязанск."
+

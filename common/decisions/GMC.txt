@@ -1,5 +1,67 @@
 expand_category = {
 	
+	#test = {
+	
+	#	allowed = {
+	#		tag = GMC
+	#	}
+		
+	#	available = {
+	#		custom_trigger_tooltip = {
+				
+	#			tooltip = UNF_region_flag_GMC_tt
+				
+	#			has_global_flag = UNF_region_flag_GMC
+	#		}
+	#	}
+	#}
+	
+	form_GMC_decision = {
+	
+		icon = GFX_decision_GMC_unify
+		
+		priority = 100
+		
+		ai_will_do = {
+			factor = 4000
+		}
+		
+		cost = 100
+		
+		fire_only_once = yes
+		
+		days_remove = 60
+		
+		
+		allowed = {
+			tag = GMC
+		}
+		
+		
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = unify_GMC_tt
+				controls_state = 880
+				controls_state = 829
+				controls_state = 244
+			}
+		}
+		
+		remove_effect = {
+			set_cosmetic_tag = GMC_UNF
+			
+			custom_effect_tooltip = unify_GMC_effect_tt
+			
+			set_global_flag = UNF_region_flag_GMC
+			
+			hidden_effect = {
+				add_research_slot = 1
+			}
+		}
+	}
+	
+	
 	moscow_decision = {
 	
 		icon = infiltrate_state

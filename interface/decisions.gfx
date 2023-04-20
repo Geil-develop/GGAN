@@ -7,6 +7,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_ART_claim_soviet_state.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_decision_GMC_unify"
+		texturefile = "gfx/interface/decisions/decision_GMC_unify.dds"
+	}
+	
+	
 	### categories
 	
 	spriteType = {

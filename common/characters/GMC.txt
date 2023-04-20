@@ -1,0 +1,63 @@
+characters={
+	GMC_gambol_dem={ 
+		name=GMC_gambol_dem
+		portraits={
+			civilian={
+				large="GFX_portrait_gambol"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			expire="1965.1.1.1"
+			
+		}
+	}
+	
+	GMC_gambol_com={ 
+		name=GMC_gambol_com
+		portraits={
+			civilian={
+				large="GFX_portrait_gambol"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			
+			expire="1965.1.1.1"
+			
+		}
+	}
+	
+	GMC_gambol_ntr={ 
+		name=GMC_gambol_ntr
+		portraits={
+			civilian={
+				large="GFX_portrait_gambol"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			
+			expire="1965.1.1.1"
+			
+		}
+	}
+	
+	GMC_gambol_fas={ 
+		name=GMC_gambol_fas
+		portraits={
+			civilian={
+				large="GFX_portrait_gambol"
+			}
+		}
+		country_leader={
+			ideology=gen_nazism
+			
+			expire="1965.1.1.1"
+			
+		}
+	}
+	
+	
+}

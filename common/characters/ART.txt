@@ -1,0 +1,40 @@
+characters={
+	ART_Artemka={ 
+		name=ART_Artemka
+		portraits={
+			civilian={
+				large="GFX_portrait_artemka"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			
+			expire="1965.1.1.1"
+			
+		}
+		
+		country_leader={
+			ideology=stalinism
+			
+			expire="1965.1.1.1"
+			
+		}
+		
+		country_leader={
+			ideology=despotism
+			
+			expire="1965.1.1.1"
+			
+		}
+		
+		country_leader={
+			ideology=fascism_ideology 
+			
+			expire="1965.1.1.1"
+			
+		}
+		
+		
+	}
+	
+	

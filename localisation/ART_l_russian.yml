@@ -9,3 +9,7 @@ yamal_raid_decision:0 "Занять §YЗаполярный Ямал§!"
 altay_control_decision:0 "Организовать гарнизоны в §YАлтае§!"
 tomsk_control_decision:0 "Организовать гарнизоны в §YТомске§!"
 eniseisk_control_decision:0 "Организовать гарнизоны в §YЕнисейске§!"
+
+#Characters
+
+ART_Artemka:0 "Артёмка"

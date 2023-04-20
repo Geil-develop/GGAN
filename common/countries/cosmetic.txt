@@ -1,0 +1,4 @@
+GMC_UNF = {
+    color = rgb { 36 137 182 }
+    color_ui = rgb { 255 73 121 }
+}

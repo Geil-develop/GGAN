@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+	
+	#GMC
+
+	spriteType = {
+		name = GFX_portrait_gambol
+		texturefile = "gfx\leaders\GMC\Gambol.dds"
+	}
+	
+	#ART
+	
+	spriteType = {
+		name = GFX_portrait_artemka
+		texturefile = "gfx\leaders\ART\Artemka.dds"
+	}
+}
