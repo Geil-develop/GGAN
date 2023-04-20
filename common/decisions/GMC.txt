@@ -1,20 +1,5 @@
 expand_category = {
 	
-	#test = {
-	
-	#	allowed = {
-	#		tag = GMC
-	#	}
-		
-	#	available = {
-	#		custom_trigger_tooltip = {
-				
-	#			tooltip = UNF_region_flag_GMC_tt
-				
-	#			has_global_flag = UNF_region_flag_GMC
-	#		}
-	#	}
-	#}
 	
 	form_GMC_decision = {
 	
